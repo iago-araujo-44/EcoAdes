@@ -8,11 +8,8 @@ body{
     background-size:cover;
     background-position:center;
 }
-
-.titulo1:hover{
-    transform:scale(1.05);
-     z-index: index 1; 
-      background: rgba(255, 255, 255, 0.15);
+.titulo{
+     background: rgba(255, 255, 255, 0.15);
 
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -26,6 +23,10 @@ body{
     text-align: center;
 
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.titulo1:hover{
+    transform:scale(1.05);
+     z-index: index 1; 
 }
 .inte-1{
     background-color: red;
